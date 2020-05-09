@@ -1,0 +1,7 @@
+server:
+  port: 9090
+  ssl:
+    key-alias: https-example
+    key-store-type: JKS
+    key-store-password: Keystore@123
+    key-store: classpath:keystore.jks
