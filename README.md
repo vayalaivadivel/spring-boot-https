@@ -9,12 +9,12 @@ This is the spring boot micro service example project with https
 [Make sure the key-store file with name keystore.jks in the resource directory]
 - Update application.yml file accordingly for example,
 >server:
-  port: 9090
-  ssl:
-    key-alias: https-example
-    key-store-type: JKS
-    key-store-password: Keystore@123
-    key-store: classpath:keystore.jks
+>  port: 9090
+>  ssl:
+>    key-alias: https-example
+>    key-store-type: JKS
+>    key-store-password: Keystore@123
+>    key-store: classpath:keystore.jks
 >
 - Run below mvn command to run the application
 ```sh
